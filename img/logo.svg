@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 80" fill="none">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,600&amp;family=Montserrat:wght@400;500;600&amp;display=swap');
+      .brand-title { font-family: 'Playfair Display', serif; font-style: italic; font-weight: 600; font-size: 38px; fill: #111111; }
+      .heart-mark { fill: #E85A8C; }
+      .brand-sub { font-family: 'Montserrat', sans-serif; font-size: 10px; font-weight: 500; letter-spacing: 0.28em; fill: #666666; text-transform: uppercase; }
+    </style>
+  </defs>
+  <g transform="translate(10, 42)">
+    <text class="brand-title" x="0" y="0">Alegi</text>
+    <path class="heart-mark" d="M100 -24 C97 -30, 89 -30, 85 -24 C81 -30, 73 -30, 70 -24 C66 -16, 73 -7, 85 2 C97 -7, 104 -16, 100 -24 Z" transform="translate(26, 12) scale(0.7)"/>
+  </g>
+  <text class="brand-sub" x="12" y="66">ROPA Y ACCESORIOS</text>
+</svg>

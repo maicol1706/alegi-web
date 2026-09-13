@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Catálogo · Alegi ♥</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="topbar">♥ Envíos y pagos por WhatsApp · <a href="#" data-wa="Hola Alegi, quiero información de envíos y pagos"><span data-phone>+57 323 453 9556</span></a></div>
+  <header class="site-header">
+    <div class="wrap header-row">
+      <a class="brand" href="index.html">
+        <strong>Alegi <span>♥</span></strong>
+        <small>Ropa y Accesorios</small>
+      </a>
+      <nav class="nav-desk">
+        <a href="index.html">Inicio</a>
+        <a class="active" href="catalogo.html">Catálogo</a>
+        <a href="catalogo.html?cat=ropa">Ropa</a>
+        <a href="catalogo.html?cat=bolsos">Bolsos</a>
+        <a href="catalogo.html?cat=tennis">Tennis</a>
+        <a href="catalogo.html?cat=accesorios">Accesorios</a>
+        <a href="catalogo.html?cat=perfumes">Perfumes</a>
+      </nav>
+      <div class="header-actions">
+        <div class="search">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3-3"/></svg>
+          <input id="siteSearch" type="search" placeholder="Buscar prenda...">
+        </div>
+        <a class="btn btn-ig" data-ig href="https://instagram.com/TU_USUARIO_ALEGI" target="_blank" rel="noopener" aria-label="Instagram de Alegi">IG</a>
+        <a class="btn btn-primary" data-wa="Hola Alegi, quiero hacer un pedido" target="_blank" rel="noopener">Pedir por WhatsApp</a>
+        <button class="menu-btn" type="button" onclick="toggleMenu()" aria-label="Menú">☰</button>
+      </div>
+    </div>
+    <nav class="mobile-nav wrap" id="mobileNav">
+      <a href="index.html">Inicio</a>
+      <a href="catalogo.html">Catálogo</a>
+      <a href="catalogo.html?cat=ropa">Ropa</a>
+      <a href="catalogo.html?cat=bolsos">Bolsos</a>
+      <a href="catalogo.html?cat=tennis">Tennis</a>
+      <a href="catalogo.html?cat=accesorios">Accesorios</a>
+      <a href="catalogo.html?cat=perfumes">Perfumes</a>
+      <a data-ig href="https://instagram.com/TU_USUARIO_ALEGI" target="_blank" rel="noopener">Instagram</a>
+    </nav>
+  </header>
+
+  <main class="wrap section">
+    <p class="crumbs"><a href="index.html">Inicio</a> / Catálogo</p>
+    <div class="badge">Colección Alegi</div>
+    <h1 class="display">Catálogo completo</h1>
+    <p class="muted">Ropa, bolsos, tennis, accesorios y perfumes. Estilo boutique con atención directa.</p>
+
+    <div class="toolbar">
+      <div class="chips">
+        <button class="chip active" type="button" data-filter="all">Todas</button>
+        <button class="chip" type="button" data-filter="ropa">Ropa</button>
+        <button class="chip" type="button" data-filter="bolsos">Bolsos</button>
+        <button class="chip" type="button" data-filter="tennis">Tennis</button>
+        <button class="chip" type="button" data-filter="accesorios">Accesorios</button>
+        <button class="chip" type="button" data-filter="perfumes">Perfumes</button>
+      </div>
+      <div>
+        <span class="tiny" id="resultCount"></span>
+        <select class="sort" id="sortSelect">
+          <option value="newest">Novedades</option>
+          <option value="price-asc">Precio: menor a mayor</option>
+          <option value="price-desc">Precio: mayor a menor</option>
+          <option value="popular">Más populares</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="grid-4" id="productGrid"></div>
+
+    <div class="on-demand" style="margin-top:36px">
+      <div>
+        <p class="kicker">Pedido a tu medida</p>
+        <h2>Cualquier prenda o calzado a tu elección</h2>
+        <p>Si no ves aquí lo que buscas, igual está a disposición. Escríbenos por WhatsApp, cuéntanos la prenda, los zapatos, el bolso o el accesorio que quieres y te confirmamos si lo tenemos o lo conseguimos.</p>
+      </div>
+      <a class="btn btn-wa" data-wa="Hola Alegi, quiero preguntar por una prenda / zapatos / accesorio que no vi en el catálogo. Les cuento lo que busco:" target="_blank" rel="noopener">Preguntar por WhatsApp</a>
+    </div>
+
+    <div class="help-banner" style="margin-top:24px">
+      <div class="cat-ico">💬</div>
+      <div>
+        <strong>¿Dudas de talla, envío o método de pago?</strong>
+        <p class="tiny">Te atendemos de forma personalizada. Línea activa: <span data-phone>+57 323 453 9556</span></p>
+      </div>
+      <a class="btn btn-wa" data-wa="Hola Alegi, tengo una duda de talla, envío o pago" target="_blank" rel="noopener">Hablar con una asesora</a>
+    </div>
+  </main>
+
+  <footer>
+    <div class="wrap foot-grid">
+      <div>
+        <div class="brand"><strong>Alegi <span>♥</span></strong><small>Ropa y Accesorios</small></div>
+        <p><strong data-phone>+57 323 453 9556</strong></p>
+        <p class="tiny">Instagram: <a data-ig href="https://instagram.com/TU_USUARIO_ALEGI" target="_blank" rel="noopener"><strong data-ig-handle>@TU_USUARIO_ALEGI</strong></a></p>
+      </div>
+      <div>
+        <strong>Categorías</strong>
+        <p class="tiny"><a href="catalogo.html?cat=ropa">Ropa</a><br><a href="catalogo.html?cat=bolsos">Bolsos</a><br><a href="catalogo.html?cat=tennis">Tennis</a></p>
+      </div>
+      <div>
+        <strong>Atención</strong>
+        <p class="tiny">Lunes a Sábado · 9:00 AM – 7:00 PM<br>Colombia · Envíos a todo el país</p>
+      </div>
+      <div class="foot-box">
+        <strong>Ventas 100% WhatsApp</strong>
+        <p class="tiny">Pedidos, envíos y pagos coordinados por chat.</p>
+        <a class="btn btn-wa" data-wa="Hola Alegi, quiero hacer un pedido" target="_blank" rel="noopener">Escríbenos ahora</a>
+      </div>
+    </div>
+    <div class="wrap copy"><span>© 2026 Alegi Ropa y Accesorios</span></div>
+  </footer>
+
+  <a class="fab" data-wa="Hola Alegi, ¿me ayudas con una prenda?" target="_blank" rel="noopener" aria-label="WhatsApp">WA</a>
+  <script src="js/data.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
