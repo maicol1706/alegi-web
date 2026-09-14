@@ -18,7 +18,7 @@ window.ALEGI = {
       image: "img/bolso-tote-blanco.jpg",
       colors: ["Blanco perla", "Negro"],
       sizes: null,
-      description: "Tote estructurado en tono hueso, con herrajes dorados suaves y espacio para el día a día. Ideal para oficina o un look de fin de semana.",
+      description: "",
       highlights: ["Herrajes dorados", "Compartimento amplio", "Correa de hombro"]
     },
     {
@@ -33,7 +33,7 @@ window.ALEGI = {
       image: "img/bolso-baguette-negro.jpg",
       colors: ["Negro", "Rosa"],
       sizes: null,
-      description: "Baguette compacto de línea parisina. Cierre frontal y correa corta para llevar al hombro con outfits de noche o de ciudad.",
+      description: "",
       highlights: ["Silueta baguette", "Broche dorado", "Tamaño compacto"]
     },
     {
@@ -48,7 +48,7 @@ window.ALEGI = {
       image: "img/tennis-blancos.jpg",
       colors: ["Blanco"],
       sizes: ["36", "37", "38", "39", "40"],
-      description: "Tennis blancos de corte limpio y suela crema. Combinan con pantalón wide leg, vestido o jeans.",
+      description: "",
       highlights: ["Corte clásico", "Plantilla cómoda", "Fácil de combinar"]
     },
     {
@@ -63,7 +63,7 @@ window.ALEGI = {
       image: "img/tennis-negros.jpg",
       colors: ["Negro"],
       sizes: ["36", "37", "38", "39", "40"],
-      description: "Tennis negros con contraste blanco. Un básico urbano para looks casuales y de viaje.",
+      description: "",
       highlights: ["Contraste blanco", "Uso diario", "Buen soporte"]
     },
     {
@@ -78,7 +78,7 @@ window.ALEGI = {
       image: "img/blusa-negra.jpg",
       colors: ["Negro"],
       sizes: ["XS", "S", "M", "L", "XL"],
-      description: "Blusa negra de corte ajustado y manga larga. El básico que sostiene cualquier outfit Alegi.",
+      description: "",
       highlights: ["Corte cómodo", "Fácil de planchar", "Combina con todo"]
     },
     {
@@ -101,7 +101,7 @@ window.ALEGI = {
       ],
       colors: ["Beige Arena", "Negro Noche", "Marfil", "Rosa palo"],
       sizes: ["XS", "S", "M", "L", "XL"],
-      description: "Pantalón de tiro alto con silueta wide leg. Tejido sastre que no transparenta y cae derecho. Queda igual de bien con tennis o con un bolso de noche.",
+      description: "",
       highlights: [
         "Tiro alto con pretina reforzada",
         "Bolsillos laterales profundos",
@@ -120,7 +120,7 @@ window.ALEGI = {
       image: "img/set-dorado.jpg",
       colors: ["Dorado"],
       sizes: null,
-      description: "Set de collar y aretes en tono oro champagne. Un toque fino para regalos o para elevar un look básico.",
+      description: "",
       highlights: ["Baño dorado", "Piezas livianas", "Listo para regalar"]
     },
     {
@@ -135,7 +135,7 @@ window.ALEGI = {
       image: "img/mandarinSky.jpg",
       colors: null,
       sizes: null,
-      description: "Fragancia floral suave, con salida fresca y fondo cálido. Presentación de boutique, ideal para Amor y Amistad.",
+      description: "",
       highlights: ["Aroma floral", "Duración media-alta", "Frasco de regalo"]
     },
     {
@@ -150,7 +150,7 @@ window.ALEGI = {
       image: "img/vestido-floral.jpg",
       colors: ["Floral arena"],
       sizes: ["XS", "S", "M", "L", "XL"],
-      description: "Vestido midi de inspiración floral, fresco y con caída suave. Perfecto para tarde, brunch o una salida especial.",
+      description: "",
       highlights: ["Largo midi", "Estampado floral", "Tela liviana"]
     },
     {
@@ -165,7 +165,7 @@ window.ALEGI = {
       image: "img/mini-bolso-rosa.jpg",
       colors: ["Rosa", "Negro"],
       sizes: null,
-      description: "Mini bag acolchado en rosa empolvado con cadena dorada. El tamaño justo para celular, llaves y un labial.",
+      description: "",
       highlights: ["Acolchado", "Cadena dorada", "Formato mini"]
     },
     {
@@ -180,7 +180,7 @@ window.ALEGI = {
       image: "img/tennis-chunky.jpg",
       colors: ["Crema"],
       sizes: ["36", "37", "38", "39", "40"],
-      description: "Tennis chunky en crema con detalles dorados. Dan altura visual y cierran un look wide leg o un vestido midi.",
+      description: "",
       highlights: ["Suela chunky", "Toques dorados", "Tendencia"]
     },
     {
@@ -195,7 +195,7 @@ window.ALEGI = {
       image: "img/set-perla.jpg",
       colors: ["Perla"],
       sizes: null,
-      description: "Set delicado de perla y metal claro. Un clásico para regalos, eventos o el día a día.",
+      description: "",
       highlights: ["Perla", "Piezas livianas", "Estuche de regalo"]
     },
     {
@@ -210,7 +210,7 @@ window.ALEGI = {
       image: "img/NikeDunkLow2.jpg",
       colors: ["Crema"],
       sizes: ["36", "37", "38", "39", "40"],
-      description: "Tennis chunky en crema con detalles dorados. Dan altura visual y cierran un look wide leg o un vestido midi.",
+      description: "",
       highlights: ["Suela chunky", "Toques dorados", "Tendencia"]
     },
     {
@@ -225,7 +225,7 @@ window.ALEGI = {
       image: "img/NikeSkateBlancos.jpg",
       colors: ["Crema"],
       sizes: ["36", "37", "38", "39", "40"],
-      description: "Tennis chunky en crema con detalles dorados. Dan altura visual y cierran un look wide leg o un vestido midi.",
+      description: "",
       highlights: ["Suela chunky", "Toques dorados", "Tendencia"]
     },
     {
@@ -240,9 +240,70 @@ window.ALEGI = {
       image: "img/zapatillasDeportivasAdidas.jpg",
       colors: ["Crema"],
       sizes: ["36", "37", "38", "39", "40"],
-      description: "Tennis chunky en crema con detalles dorados. Dan altura visual y cierran un look wide leg o un vestido midi.",
+      description: "",
       highlights: ["Suela chunky", "Toques dorados", "Tendencia"]
     },
+    {
+      id: "blusaVarillaRib",
+      name: "Blusa Negra Varilla Rib",
+      category: "ropa",
+      categoryLabel: "Ropa",
+      price: 45000,
+      popular: 86,
+      badge: "Exclusivo",
+      ref: "VF-09",
+      image: "img/BlusaVarillaRib.jpg",
+      colors: ["Floral arena"],
+      sizes: ["XS", "S", "M", "L", "XL"],
+      description: "",
+      highlights: ["Largo midi", "Estampado floral", "Tela liviana"]
+    },
+    {
+      id: "BlusaZafiro",
+      name: "Blusa Zafiro",
+      category: "ropa",
+      categoryLabel: "Ropa",
+      price: 50000,
+      popular: 86,
+      badge: "Exclusivo",
+      ref: "VF-09",
+      image: "img/vestido-floral.jpg",
+      colors: ["Floral arena"],
+      sizes: ["XS", "S", "M", "L", "XL"],
+      description: "",
+      highlights: ["Largo midi", "Estampado floral", "Tela liviana"]
+    },
+     {
+      id: "BlusaNegroCuelloTortuga",
+      name: "Blusa Negra Cuello Tortuga",
+      category: "ropa",
+      categoryLabel: "Ropa",
+      price: 50000,
+      popular: 86,
+      badge: "Exclusivo",
+      ref: "VF-09",
+      image: "img/BlusaNegroCuelloTortuga.jpg",
+      colors: ["Floral arena"],
+      sizes: ["XS", "S", "M", "L", "XL"],
+      description: "",
+      highlights: ["Largo midi", "Estampado floral", "Tela liviana"]
+    },
+     {
+      id: "EnterizoMangaLarga",
+      name: "Enterizo Manga Larga",
+      category: "ropa",
+      categoryLabel: "Ropa",
+      price: 75000,
+      popular: 86,
+      badge: "Exclusivo",
+      ref: "VF-09",
+      image: "img/vestido-floral.jpg",
+      colors: ["Floral arena"],
+      sizes: ["XS", "S", "M", "L", "XL"],
+      description: "",
+      highlights: ["Largo midi", "Estampado floral", "Tela liviana"]
+    },
+
   ]
 };
 
