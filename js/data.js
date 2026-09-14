@@ -237,7 +237,7 @@ window.ALEGI = {
       popular: 89,
       badge: "Nuevo",
       ref: "TK-11",
-      image: "img/ZapatillasDeportivasAdidas.jpg",
+      image: "img/zapatillasDeportivasAdidas.jpg",
       colors: ["Crema"],
       sizes: ["36", "37", "38", "39", "40"],
       description: "Tennis chunky en crema con detalles dorados. Dan altura visual y cierran un look wide leg o un vestido midi.",
