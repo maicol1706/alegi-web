@@ -282,7 +282,7 @@ window.ALEGI = {
       popular: 86,
       badge: "Exclusivo",
       ref: "VF-09",
-      image: "img/BlusaNegroCuelloTortuga.jpg",
+      image: "img/BusoNegroCuelloTortuga.jpg",
       colors: ["Floral arena"],
       sizes: ["XS", "S", "M", "L", "XL"],
       description: "",
