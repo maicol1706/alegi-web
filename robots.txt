@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://maicol1706.github.io/alegi-web/sitemap.xml
